@@ -8,7 +8,7 @@
     <!-- now -->
     <version>3.0.1-SNAPSHOT</version>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>my-blog</name>
     <description>My Java Blog project for Spring Boot</description>
@@ -28,7 +28,7 @@
 
     <dependencies>
 
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
@@ -37,7 +37,7 @@
                     <artifactId>spring-boot-starter-tomcat</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
